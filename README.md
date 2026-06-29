@@ -3,7 +3,10 @@
 A modern, responsive Weather App built using **HTML**, **CSS**, and **JavaScript**. It uses the OpenWeather API to display real-time weather information for any city or the user's current location.
 
 ---
+## 📸 Screenshot
 
+![Weather App](screenshots/weather-home.png)
+![Weather App](screenshots/weather-search.png)
  Features
 
 - 🔍 Search weather by city name
