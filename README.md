@@ -5,8 +5,8 @@ A modern, responsive Weather App built using **HTML**, **CSS**, and **JavaScript
 ---
 ## 📸 Screenshot
 
-![Weather App](screenshots/weather-home.png)
-![Weather App](screenshots/weather-search.png)
+![Weather App](Screenshots/weather-home.png)
+![Weather App](Screenshots/weather-search.png)
  Features
 
 - 🔍 Search weather by city name
