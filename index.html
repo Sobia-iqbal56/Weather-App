@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="weather-card">
+
+        <h1>Weather App</h1>
+
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city name" aria-label="City name">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <button id="location-btn">📍 Use My Location</button>
+        <div id="loading"></div>
+        <div id="error-card">
+
+            <h3 id="error-title"></h3>
+
+            <p id="error-message"></p>
+
+        </div>
+        <img id="weather-icon" alt="Weather Icon">
+
+        <h2 id="city-name">City Name</h2>
+
+        <h3 id="temperature">25°C</h3>
+
+        <p id="description">Clear Sky</p>
+        <div class="date-time">
+            <p id="day"></p>
+            <p id="date"></p>
+            <p id="time"></p>
+        </div>
+
+        <div class="weather-details">
+
+            <div class="detail-card">
+
+                <div class="icon">💧</div>
+
+                <h4>Humidity</h4>
+
+                <p id="humidity">--</p>
+
+            </div>
+
+            <div class="detail-card">
+
+                <div class="icon">🌬</div>
+
+                <h4>Wind</h4>
+
+                <p id="wind">--</p>
+
+            </div>
+            <div class="detail-card">
+                <div class="icon">🤗</div>
+                <h4>Feels Like</h4>
+                <p id="feels-like">--</p>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">🌍</div>
+                <h4>Country</h4>
+                <p id="country">--</p>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">👁</div>
+                <h4>Visibility</h4>
+                <p id="visibility">--</p>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">📊</div>
+                <h4>Pressure</h4>
+                <p id="pressure">--</p>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">🌡</div>
+                <h4>Min Temp</h4>
+                <p id="min-temp">--</p>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">🌡</div>
+                <h4>Max Temp</h4>
+                <p id="max-temp">--</p>
+            </div>
+            <div class="detail-card">
+                <div class="icon">🌅</div>
+                <h4>Sunrise</h4>
+                <p id="sunrise">--</p>
+            </div>
+
+            <div class="detail-card">
+                <div class="icon">🌇</div>
+                <h4>Sunset</h4>
+                <p id="sunset">--</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
